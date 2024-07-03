@@ -10,16 +10,19 @@
 import router from '@adonisjs/core/services/router'
 
 router.get('/', async () => {
-  return {
+  const maria = {
     hello: 'world',
   }
+
 })
 
 router.get('/gabriel', async () => {
-  return {
-    gabriel: "25",
-    classe: "druida",
-    cerveja: "lager"
+  const teste = {
+    hello: 'world',
   }
+  console.log(teste)
 })
+
+
+
 
