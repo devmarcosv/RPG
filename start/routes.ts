@@ -10,7 +10,7 @@
 import router from '@adonisjs/core/services/router'
 
 router.get('/', async () => {
-  const maria = {
+  const marcos = {
     hello: 'world',
   }
 
